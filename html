@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shardul Kulkarni | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0a0a0a;
+      color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 20px;
+      background: linear-gradient(90deg, #111, #222);
+    }
+
+    /* 🔹 Profile Header with Image */
+    .profile-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 20px;
+      background: linear-gradient(90deg, #1a1a1a, #333);
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .profile-container:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 40px rgba(255, 215, 0, 0.3);
+    }
+
+    .profile-pic {
+      width: 130px;
+      height: 160px;
+      border-radius: 12px;
+      border: 3px solid #daa520;
+      object-fit: cover;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    .info h1 {
+      font-size: 28px;
+      color: #ffd700;
+      margin: 0;
+    }
+
+    .info h3 {
+      font-size: 16px;
+      color: #f5f5f5;
+      margin: 10px 0 0;
+    }
+
+    section {
+      padding: 40px 100px;
+      transition: all 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+    }
+
+    h2 {
+      color: #ffd700;
+      border-bottom: 2px solid #ffd700;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #ffd700;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .contact-info a {
+      margin: 0 10px;
+      color: #ffd700;
+    }
+
+    .block {
+      background-color: #111;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 20px rgba(255, 215, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .block:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 30px rgba(255, 215, 0, 0.25);
+    }
+
+    .languages {
+      text-align: center;
+    }
+
+    .languages p {
+      display: inline-block;
+      margin: 0 10px;
+      background: #1a1a1a;
+      padding: 10px 20px;
+      border-radius: 12px;
+      border: 1px solid #ffd700;
+      transition: all 0.3s ease;
+    }
+
+    .languages p:hover {
+      background: #ffd700;
+      color: #000;
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 768px) {
+      section {
+        padding: 20px 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔹 Header with Photo -->
+  <header>
+    <div class="profile-container">
+      <img src="imge.jpg" alt="Shardul Kulkarni" class="profile-pic">
+      <div class="info">
+        <h1>Shardul Kulkarni</h1>
+        <h3>Final Year B.Sc. Computer Science Student | Cybersecurity Certified</h3>
+      </div>
+    </div>
+  </header>
+
+  <!-- 🔹 Career Objective -->
+  <section class="block">
+    <h2>Career Objective</h2>
+    <p>Final-year B.Sc. Computer Science student from K.K. Wagh ACS & CS College, Nashik, with an ISC² Cybersecurity certification. I believe in disciplined, practical learning and aim to secure an apprenticeship that provides real-world exposure to programming, data, and cloud technologies while continuing my higher studies. I bring strong communication skills, leadership qualities, and a creative mindset shaped by my passion for music and guitar, with the goal of developing into a well-rounded and technically skilled professional in the digital and data domain.</p>
+  </section>
+
+  <!-- 🔹 Education -->
+  <section class="block">
+    <h2>Education</h2>
+    <p><b>Bachelor of Science (B.Sc.) in Computer Science</b><br>
+    K.K. Wagh ACS and CS College, Nashik<br>
+    Expected Graduation: 2026<br>
+    Current CGPA: 8.78</p>
+    <p><b>Coursework:</b> Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, Cloud Computing Fundamentals.</p>
+  </section>
+
+  <!-- 🔹 Technical Skills -->
+  <section class="block">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><b>Programming:</b> C, C++, Java, Python, HTML, CSS</li>
+      <li><b>Database:</b> MySQL basics, NoSQL concepts, DBMS, RDBMS</li>
+      <li><b>Data Tools:</b> Pandas, NumPy (basic)</li>
+      <li><b>Web:</b> HTML5, CSS3, Bootstrap</li>
+      <li><b>Cloud:</b> Learning AWS, GCP fundamentals (Compute, Storage, IAM)</li>
+      <li><b>Version Control:</b> Git, GitHub</li>
+      <li><b>Soft Skills:</b> Analytical Thinking, Team Collaboration, Communication, Adaptability, Documentation</li>
+    </ul>
+  </section>
+
+  <!-- 🔹 Achievements -->
+  <section class="block">
+    <h2>Academic Achievements & Certifications</h2>
+    <ul>
+      <li>Completed ISC² Certification – November 2024</li>
+      <li>Completed IoT course – learned Arduino, sensors, cloud integration</li>
+      <li>Currently learning AWS and Python for Data Science</li>
+    </ul>
+  </section>
+
+  <!-- 🔹 Activities -->
+  <section class="block">
+    <h2>Academic Activities</h2>
+    <ul>
+      <li>Created multiple C programs for linked lists, stacks, queues, sorting algorithms.</li>
+      <li>Built simple HTML/CSS web pages while learning front-end basics.</li>
+      <li>Practiced GitHub version control by uploading DSA and coding files.</li>
+      <li>Completed 2 Guitar Exams from Trinity College London with 99% score.</li>
+    </ul>
+  </section>
+
+  <!-- 🔹 Strengths -->
+  <section class="block">
+    <h2>Strengths</h2>
+    <ul>
+      <li>Quick Learner with curiosity for new technologies</li>
+      <li>Solid understanding of programming fundamentals</li>
+      <li>Strong logical and problem-solving mindset</li>
+      <li>Ready to relocate and work in flexible shifts</li>
+    </ul>
+  </section>
+
+  <!-- 🔹 Languages -->
+  <section class="block languages">
+    <h2>Languages</h2>
+    <p>English (Fluent)</p>
+    <p>Hindi (Fluent)</p>
+    <p>Marathi (Native)</p>
+  </section>
+
+  <!-- 🔹 Contact -->
+  <div class="contact-info">
+    <p>📞 +91-9307697383 | ✉️ <a href="mailto:shardulk699@gmail.com">shardulk699@gmail.com</a></p>
+    <p>
+      <a href="https://github.com/shardulk001" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/shardul-kulkarni-0a13a2275/" target="_blank">LinkedIn</a>
+    </p>
+  </div>
+
+</body>
+</html>
